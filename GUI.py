@@ -56,7 +56,7 @@ class FileCreator(tk.Tk):
         else:
             self.content_error['text'] = ""
 
-        save_path = r"C:/Users/danie/Desktop/" + str(file_loc)
+        save_path = r"C:/Users/"""username"""/Desktop/" + str(file_loc)
 
         if not os.path.exists(save_path):
             os.makedirs(save_path)
